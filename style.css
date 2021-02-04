@@ -25,6 +25,7 @@ body {
 	display: flex;
 	align-items: center;
 	font-size: 18px;
+	border: dashed 1px red;
 }
 
 .menu__item {
@@ -42,7 +43,7 @@ body {
 
 .main-content {
 	padding: 246px 0;
-	margin-right: 61%;
+	width: 30%;
 }
 
 .main-content__title {
@@ -51,10 +52,12 @@ body {
 	font-weight: bold;
 	display: flex;
 	align-items: center;
+	border: dashed 1px red;
 }
 
 .main-content__discription {
 	font-family: Roboto;
 	font-size: 22px;
 	margin: 40px 0 41px 0;
+	border: dashed 1px red;
 }

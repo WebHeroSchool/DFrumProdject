@@ -9,6 +9,11 @@ body {
 	width: 80%;
 }
 
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
 .logo {
 	padding: 40px 0;
 	margin-right: 63%;
@@ -36,21 +41,16 @@ body {
 	padding-right: 0;
 }
 
-.header {
-	display: flex;
-	justify-content: space-between;
-}
-
 .main-content {
-	padding: 246px 0;
+	padding: 318px 0;
 	width: 30%;
+
 }
 
 .main-content__title {
 	font-family: PT Serif;
 	font-size: 56px;
 	font-weight: bold;
-	display: flex;
 	align-items: center;
 	border: dashed 1px red;
 }

@@ -1,7 +1,63 @@
 body {
+	margin: 0px;
 	font-family: Helvetica;
+	background: #FFFFFF;
 }
 
-.title {
-	font-family:Roboto;
+.wrapper {
+    margin: auto;
+	width: 80%;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	padding: 40px 0;
+	margin-right: 63%;
+	font-size: 24px;
+	color: #000000;
+}
+
+.logo, .menu {
+	display: inline-block;
+	font-weight: bold;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	border: dashed 1px red;
+}
+
+.menu__item {
+	padding: 0 13px;
+}
+
+.menu__item:last-child {
+	padding-right: 0;
+}
+
+.main-content {
+	padding: 318px 0;
+	width: 30%;
+
+}
+
+.main-content__title {
+	font-family: PT Serif;
+	font-size: 56px;
+	font-weight: bold;
+	align-items: center;
+	border: dashed 1px red;
+}
+
+.main-content__discription {
+	font-family: Roboto;
+	font-size: 22px;
+	margin: 40px 0 41px 0;
+	border: dashed 1px red;
 }

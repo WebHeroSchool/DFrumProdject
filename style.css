@@ -10,15 +10,15 @@ body {
 }
 
 .header {
+	padding: 40px 0;
 	display: flex;
 	justify-content: space-between;
 }
 
 .logo {
-	padding: 40px 0;
-	margin-right: 63%;
-	font-size: 24px;
-	color: #000000;
+	width: 190px;
+    height: 35px;
+	background: url('img/logo.svg');
 }
 
 .logo, .menu {
@@ -30,7 +30,6 @@ body {
 	display: flex;
 	align-items: center;
 	font-size: 18px;
-	border: dashed 1px red;
 }
 
 .menu__item {
@@ -44,7 +43,6 @@ body {
 .main-content {
 	padding: 318px 0;
 	width: 30%;
-
 }
 
 .main-content__title {

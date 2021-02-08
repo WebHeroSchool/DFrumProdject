@@ -7,15 +7,13 @@ body {
 .wrapper {
     margin: auto;
 	width: 81%;
-	border: dashed 1px red;
 }
 
 .header {
-	padding: 40px 5px;
+	padding: 40px 6px;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 186px;
-	border: dashed 1px red;
+	margin-bottom: 189px;
 }
 
 .logo {
@@ -33,7 +31,7 @@ body {
 .menu {
 	display: flex;
 	align-items: center;
-	border: dashed 1px red;
+	font: 500 18px/21px Roboto, arial, Helvetica, sans-serif;
 }
 
 .menu__item {
@@ -99,7 +97,7 @@ body {
 
 .main-title {
 	padding-top: 13px;
-	margin: 0 0 34px 13px;
+	margin: 0 0 36px 15px;
 	font: bold 66px/87px pt_serif, arial, Helvetica, sans-serif;
 	color: #000;
 	letter-spacing: 3px;

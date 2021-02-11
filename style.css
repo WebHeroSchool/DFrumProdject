@@ -212,7 +212,7 @@ body {
 
 }
 
- // @media (max-width: 1140px) {
+@media (max-width: 1140px) {
   
   .wrapper {
 	width: 91%;

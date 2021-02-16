@@ -87,6 +87,7 @@ body {
 
 .menu__item:hover {
 	opacity: 0.5;
+	animation: flash 2s 3 ease-in-out; 
 }
 
 .menu__item:hover:after,.menu__item_active:after {
@@ -143,16 +144,33 @@ body {
 	background: #0056EC;
 	text-decoration: none; 
 	border-radius: 4px;
-	transition: opacity .5s;  
+	transition: opacity .5s; 
 }
 
 .main-button:hover {
 	opacity: .5;
+	animation: flash 2s 3 ease-in-out;
+
 }
 
 
 #menu__toggle, .menu__btn, .menu__box, .menu__item_b  {
 	display: none;
+}
+
+@keyframes flash {
+  0% {
+    -webkit-transform: scale(2, 2);
+    transform: scale(2, 2)
+  }
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+  100% {
+    -webkit-transform: scale(2, 2);
+    transform: scale(2, 2);
+  }
 }
 
 
